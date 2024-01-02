@@ -1,0 +1,22 @@
+{
+  "realm": "master",
+  "auth-server-url": "http://localhost:8080",
+  "resource": "springboot",
+  "credentials": {
+  "secret": "d8kID46LUVsIrxMvxwkAUZu3t3bZ3lyH"
+  },
+  "http-method-as-scope": true,
+  "paths" : [
+    {
+      "path": "/students/add",
+      "enforcement-mode": "DISABLED"
+    },{
+      "path": "/swagger-ui/*",
+      "enforcement-mode": "DISABLED"
+    },{
+      "path": "/v3/api-docs/*",
+      "enforcement-mode": "DISABLED"
+    }
+  ]
+
+}
